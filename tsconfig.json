@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Node",
+    "target": "ES2018",
+    "lib": ["DOM", "ES2020"],
+    "esModuleInterop": true,
+    "downlevelIteration": true,
+    "allowJs": true,
+    "resolveJsonModule": true,
+    "types": ["jest"],
+    "typeRoots": ["./node_modules/@types"]
+  },
+  "exclude": [
+    "node_modules",
+    "tools",
+    "**/__tests__/*",
+    "_scripts"
+  ],
+  "include": ["src"]
+}
